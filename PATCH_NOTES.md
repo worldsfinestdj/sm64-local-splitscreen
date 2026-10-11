@@ -18,8 +18,8 @@ Windows PC with two controllers.
 - Cannon use now tracks the player who entered it, allowing either local
   player to aim and fire.
 - Cannon reticles are placed at the center of the active split-screen viewport.
-- Removed a Player 1-only restriction from slide handling so the same logic is
-  available to both local players.
+- Removed a Player 1-only restriction from slide handling. The slide issue is
+  still being investigated and is listed as a known issue below.
 
 ## Built and tested on
 
@@ -35,3 +35,7 @@ or other personal files. Build it with a legally obtained compatible ROM that
 you provide yourself.
 
 See [CREDITS.md](CREDITS.md) for upstream projects and contributor credit.
+
+## Known issue
+
+- Slides still need a further fix in local split-screen play.
